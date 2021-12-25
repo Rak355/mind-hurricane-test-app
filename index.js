@@ -14,5 +14,5 @@ app.use('/', function(req,res){
     res.send("welcome")
 });
 
-//app.listen(process.env.PORT);
-app.listen(5000);
+app.listen(process.env.PORT);
+//app.listen(5000);
