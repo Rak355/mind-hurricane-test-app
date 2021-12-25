@@ -11,4 +11,4 @@ app.use('/register', function(req,res){
 });
 
 //.listen(process.env.PORT);
-app.listen(5000);
+app.listen(process.env.PORT);
