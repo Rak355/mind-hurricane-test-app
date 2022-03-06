@@ -9,7 +9,7 @@
     "install-ng": "npm install @angular/cli",
     "ng": "ng",
     "start": "ng serve",
-    "build": "npm link @angular/cli; ng build --prod",
+    "build": "npm install @angular/cli; npm link @angular/cli; ng build --prod",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
